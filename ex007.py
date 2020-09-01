@@ -1,0 +1,7 @@
+n=int(input('Digite um número: '))
+d=int (n * 2)
+t=int (n * 3)
+r=float (n ** 0.5)
+print('O dobro de {} vale {}'.format(n, d))
+print('O triplo de {} vale {}'.format(n, t))
+print('A raiz quadrada de {} é igual a {}'.format(n, r))

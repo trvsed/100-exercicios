@@ -1,0 +1,6 @@
+p1=int(input('Quantos dias alugados? '))
+p2=int(input('Quantos Km rodados? '))
+dia=(p1*60)
+km=(p2*0.15)
+total=(dia+km)
+print('O total a pagar é de R${}'.format(total))
